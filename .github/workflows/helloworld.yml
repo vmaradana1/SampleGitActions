@@ -39,3 +39,7 @@ jobs:
       - name: List of Current Directory Contents
         run: echo ls -al
         
+      # Adding line to execute script.sh    
+      - name: execute script
+        run: script.sh
+        
